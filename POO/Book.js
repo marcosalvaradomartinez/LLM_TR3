@@ -5,7 +5,7 @@ export class Book{
 
     #active= false;
 
-    constructor(isbn, title, release, price, authors){
+    constructor(isbn, title, release, price, authorsList){
         this.isbn=isbn;
         this.title=title;
         this.release=release;
@@ -20,7 +20,7 @@ export class Book{
 
     render(){
         let authors = ""
-        authorsList.forEach(author => {
+        this.authorsList.forEach(author => {
             authors+=author.render();
         });
 
@@ -30,7 +30,7 @@ export class Book{
             <h1>${this.title}</h1>
             <span>${this.release}</span>
             <p class="price">${this.price}€</p>
-            <h2>${this.authorsList.toString()}</h2>
+            <h2>${authors}</h2>
         </article>
         `
     }
