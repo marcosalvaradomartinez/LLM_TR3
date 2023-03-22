@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "titulo":"Juegos del hambre",
+        "autor":"Suzanne Collins",
+        "salida":2001,
+        "precio":18
+    },
+    {
+        "id":2,
+        "titulo":"Juegos del hambre: En llamas",
+        "autor":"Suzanne Collins",
+        "salida":2003,
+        "precio":15
+    },
+    {
+        "id":3,
+        "titulo":"Juegos del hambre: Sinsajo",
+        "autor":"Suzanne Collins",
+        "salida":2009,
+        "precio":20
+    },
+    {
+        "id":4,
+        "titulo":"Harry Potter",
+        "autor":"Joanne Rowling",
+        "salida":2012,
+        "precio":25
+    }
+]
