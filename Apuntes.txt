@@ -1,0 +1,2 @@
+HTTP = get, post, put, delete
+BD = select, insert, update, delete

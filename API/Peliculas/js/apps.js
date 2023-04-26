@@ -14,11 +14,9 @@ const cargarPeliculas = async () => {
     else if (respuesta.status === 404) console.log('La pelicula no existe');
     else                               console.log('Hubo un error, no sabemos que pasó');
 
+    }catch (error);
 
-
-    }catch (error)
-
-};
+}
 
 function pintarPeliculas(pelis) {
     contenedorPeliculas.innerHTML = "";
